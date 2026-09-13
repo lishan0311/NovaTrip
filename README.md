@@ -595,8 +595,6 @@ The preview provides controls to change photos and edit text before downloading 
 ## 4. What Makes It Different ⭐
 
 ### 4.1 Novel Features & The Core Twist 💡
-## 4.1 Novel Features & The Core Twist
-
 | # | Novel Feature | What is Original | The Twist |
 |--------|--------|--------|--------|
 | **1** | **Guided Preference Profiling & Must-Do Curation** | Traditional group planning begins with unstructured, messy messaging where individual preferences get drowned out. | NovaTrip replaces endless debate with a guided 4-step profiling flow capturing pacing, travel priorities, food styles, and landmark "must-dos", paired with an optional food Notes field and a personal budget with a No preference option. This structures personal boundaries and niche interests into actionable constraints before a single schedule is drafted. |
