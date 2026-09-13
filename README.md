@@ -1,6 +1,6 @@
 # NovaTrip by Team EyeScream
 
-**Team:** Yap Li Shan, Chan Min Huey
+**Team Member:** Yap Li Shan, Chan Min Huey
 
 **Problem Statement:** Travel Planner
 
