@@ -140,14 +140,14 @@ These flowcharts compare planning across separate tools with the proposed NovaTr
 **Board 3: MindMap**
 
 <p align="left">
-  <a href="assets/media/image4.png">
+  <a href="assets/media/NovaTrip Product Ideation-2026-09-11-143734.png">
     View / Download full-size diagram
   </a>
 </p>
 
 <p align="center">
-  <a href="assets/media/image4.png">
-    <img src="assets/media/image4.png" alt="Ideation board" width="780" />
+  <a href="assets/media/NovaTrip Product Ideation-2026-09-11-143734.png">
+    <img src="assets/media/NovaTrip Product Ideation-2026-09-11-143734.png" alt="Ideation board" width="780" />
   </a>
 </p>
 
