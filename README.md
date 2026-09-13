@@ -140,7 +140,7 @@ These flowcharts compare planning across separate tools with the proposed NovaTr
 **Board 3: MindMap**
 
 <p align="left">
-  <a href="assets/media/image3.png">
+  <a href="assets/media/image4.png">
     View / Download full-size diagram
   </a>
 </p>
