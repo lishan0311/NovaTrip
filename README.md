@@ -797,16 +797,16 @@ Following the validation of NovaTrip's core planning-to-execution loop during th
 
 <p align="center">
   <a href="assets/additional/1.png"><img src="assets/additional/1.png" alt="Additional prototype screen 1" width="18%" /></a>
-  <a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="18%" /></a>
   <a href="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png" alt="Additional prototype screen 3" width="18%" /></a>
+  <a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="18%" /></a>
   <a href="assets/additional/frame-11.png"><img src="assets/additional/frame-11.png" alt="Additional prototype screen 4" width="18%" /></a>
   <a href="assets/additional/frame-12.png"><img src="assets/additional/frame-12.png" alt="Additional prototype screen 5" width="18%" /></a>
 </p>
 
 <p align="center">
   <a href="assets/additional/frame-17.png"><img src="assets/additional/frame-17.png" alt="Additional prototype screen 6" width="18%" /></a>
-  <a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="18%" /></a>
-  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="18%" /></a>
   <a href="assets/additional/frame-6.png"><img src="assets/additional/frame-6.png" alt="Additional prototype screen 9" width="18%" /></a>
   <a href="assets/additional/frame-7.png"><img src="assets/additional/frame-7.png" alt="Additional prototype screen 10" width="18%" /></a>
+  <a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="18%" /></a>
+  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="18%" /></a>
 </p>
