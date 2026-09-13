@@ -132,49 +132,68 @@ This mind map connects our ideas for trip creation, group decisions, travel upda
 ### 2.3 Mentor Consultation
 
 <table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 30%" />
-<col style="width: 33%" />
-</colgroup>
 <tbody>
-<tr class="odd">
-<td><strong>Date</strong></td>
-<td><strong>Mentor</strong></td>
-<td><strong>Feedback Received</strong></td>
-<td><strong>What Was Changed</strong></td>
+<tr>
+<th align="left" valign="top">Date</th>
+<th align="left" valign="top">Mentor</th>
+<th align="left" valign="top">Feedback Received</th>
+<th align="left" valign="top">What Was Changed</th>
 </tr>
-<tr class="even">
-<td rowspan="4">8 Sep 2026 11:00 AM</td>
-<td rowspan="4">Teng Wei Herr</td>
-<td><strong>Use Trip Chat for group decisions about itinerary changes.</strong> The mentor asked whether members would vote again when a shared itinerary changed and suggested embedding a poll in Trip Chat so they could review and respond within their main communication channel.</td>
-<td><p><strong>Status: Updated in the prototype.</strong></p>
+
+<tr>
+<td rowspan="4" align="left" valign="top">8 Sep 2026 11:00 AM</td>
+<td rowspan="4" align="left" valign="top">Teng Wei Herr</td>
+<td align="left" valign="top">
+<p><strong>Use Trip Chat for group decisions about itinerary changes.</strong></p>
+<p>The mentor asked whether members would vote again when a shared itinerary changed and suggested embedding a poll in Trip Chat so they could review and respond within their main communication channel.</p>
+</td>
+<td align="left" valign="top">
+<p><strong>Status: Updated in the prototype.</strong></p>
 <p>Our initial approach was to directly notify members and update the itinerary after a traveller makes a change, partly to avoid repeated voting. However, we have now switched to chat-based polling because we found that notifications alone do not establish group agreement. The AI’s Before/After proposal now leads to an “Approve changes” or “Keep original itinerary” poll. The current itinerary remains unchanged while voting is pending. The prototype shows voting progress, Open and Closed states, and access to the updated itinerary after approval.</p>
-<p>See Section 3.1.5 for the proposal review and Trip Chat poll screens.</p></td>
+<p>See Section 3.1.5 for the proposal review and Trip Chat poll screens.</p>
+</td>
 </tr>
-<tr class="odd">
-<td><strong>Allow preferences beyond predefined options.</strong> The mentor highlighted that travellers may have specific requests, such as a particular regional cuisine or food style, which predefined categories cannot fully capture. He suggested allowing users to type these requirements.</td>
-<td><p><strong>Status: Updated in the prototype.</strong></p>
+
+<tr>
+<td align="left" valign="top">
+<p><strong>Allow preferences beyond predefined options.</strong></p>
+<p>The mentor highlighted that travellers may have specific requests, such as a particular regional cuisine or food style, which predefined categories cannot fully capture. He suggested allowing users to type these requirements.</p>
+</td>
+<td align="left" valign="top">
+<p><strong>Status: Updated in the prototype.</strong></p>
 <p>We added an optional Notes field so users can enter food preferences that are not covered by the choices. We retain structured options for quick input while allowing travellers to express requirements beyond the available categories. The implementation will need to pass these notes into itinerary generation alongside the selected preferences.</p>
-<p>See Section 3.1.2, Step 3, for the added Notes field.</p></td>
+<p>See Section 3.1.2, Step 3, for the added Notes field.</p>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Extend the shared album with a postcard feature.</strong> The mentor suggested transforming trip photos into styled, shareable postcards to add a distinctive and enjoyable post-trip experience.</td>
-<td><p><strong>Status: Updated in the prototype.</strong></p>
+
+<tr>
+<td align="left" valign="top">
+<p><strong>Extend the shared album with a postcard feature.</strong></p>
+<p>The mentor suggested transforming trip photos into styled, shareable postcards to add a distinctive and enjoyable post-trip experience.</p>
+</td>
+<td align="left" valign="top">
+<p><strong>Status: Updated in the prototype.</strong></p>
 <p>The earlier album experience focused on organising, viewing, and downloading photos. We extended it with a “Create postcard” preview offering Map trail, Classic, and Collage styles, photo selection, text editing, and Download and Share actions. This preserves the album’s practical purpose while providing a personalised travel keepsake.</p>
-<p>See Section 3.1.12 for the postcard previews and editing options.</p></td>
+<p>See Section 3.1.12 for the postcard previews and editing options.</p>
+</td>
 </tr>
-<tr class="odd">
-<td><strong>Present the demo from the organiser’s and joining members’ perspectives.</strong> The mentor recommended a realistic user scenario instead of explaining every screen and suggested ending with the album or postcard experience.</td>
-<td><p><strong>Status: Planned presentation response.</strong></p>
-<p>The demo will follow an organiser creating a trip, a member joining and contributing preferences, and the group responding to an unexpected itinerary change. It will finish with the shared album and postcard. This sequence demonstrates how the features work together during a trip. Secondary settings will receive less screen time to keep the main journey clear.</p></td>
+
+<tr>
+<td align="left" valign="top">
+<p><strong>Present the demo from the organiser’s and joining members’ perspectives.</strong></p>
+<p>The mentor recommended a realistic user scenario instead of explaining every screen and suggested ending with the album or postcard experience.</p>
+</td>
+<td align="left" valign="top">
+<p><strong>Status: Planned presentation response.</strong></p>
+<p>The demo will follow an organiser creating a trip, a member joining and contributing preferences, and the group responding to an unexpected itinerary change. It will finish with the shared album and postcard. This sequence demonstrates how the features work together during a trip. Secondary settings will receive less screen time to keep the main journey clear.</p>
+</td>
 </tr>
-<tr class="even">
-<td>12 Sep 2026 7:25 PM</td>
-<td>Mah Qing Fung</td>
-<td>N/A - Session Cancelled by mentor</td>
-<td>N/A - Session Cancelled by mentor</td>
+
+<tr>
+<td align="left" valign="top">12 Sep 2026 7:25 PM</td>
+<td align="left" valign="top">Mah Qing Fung</td>
+<td align="left" valign="top">N/A - Session Cancelled by mentor</td>
+<td align="left" valign="top">N/A - Session Cancelled by mentor</td>
 </tr>
 </tbody>
 </table>
