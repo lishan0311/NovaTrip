@@ -4,9 +4,9 @@
 
 **Problem Statement:** Travel Planner
 
-**Video Presentation:** <u>Unlisted Youtube Link</u>
+**Video Presentation:**[Presentation Video Link](https://canva.link/f0gl9g2u3t7e754)
+**Presentation Slides:**[Presentation Slide Link](https://canva.link/f0gl9g2u3t7e754)
 
-**Presentation Slides:** https://canva.link/f0gl9g2u3t7e754
 
 ## 1. Project Overview
 
