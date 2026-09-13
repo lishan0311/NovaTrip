@@ -9,9 +9,9 @@
 **Presentation Slides:** [Presentation Slide Link](https://canva.link/f0gl9g2u3t7e754)
 
 
-## 1. Project Overview
+## 1. Project Overview 🚀
 
-### 1.1 The Problem
+### 1.1 The Problem 🧩
 
 Planning a trip involves keeping track of bookings, routes, activities, costs and personal preferences. When this information is spread across booking websites, maps, documents and messaging apps, travellers have to bring it together manually. Updating one part of the trip can also mean checking and changing information in several places.
 
@@ -31,7 +31,7 @@ While **Wanderlog** offers collaborative mapping and expense tracking, its sched
 
 Overall, these platforms treat travel plans as static documents rather than living operational workspaces, leaving travelers to manually manage disruptions across multiple fragmented apps.
 
-### 1.2 Our Solution
+### 1.2 Our Solution 💡
 
 <p align="center">
   <a href="assets/media/image1.png"><img src="assets/media/image1.png" alt="NovaTrip overview" width="367" /></a>
@@ -69,9 +69,9 @@ Users can select an itinerary item to pre-fill an expense or add other expenses 
 
 The app organises trip photos by itinerary stops and location, which can be viewed through interactive map pins or a chronological day-by-day album. Users can export customised keepsakes through the built-in "Create postcard" generator using Map-trail, Classic, or Collage templates for easy sharing and downloading.
 
-## 2. Ideation & Process
+## 2. Ideation & Process🧠 
 
-### 2.1 Ideas We Considered
+### 2.1 Ideas We Considered 💭 
 
 We first compared the two problem statements and chose the one that our team was more familiar with. We then discussed how travellers would create a trip, choose a plan, manage bookings and costs, and handle changes during the trip.
 
@@ -104,7 +104,7 @@ We also expanded the design to support more of the trip. Existing bookings becam
 
 Later mentor feedback led to further changes, including itinerary-change polls, free-text food preferences, and postcard creation. Section 2.3 records that feedback and how we responded.
 
-### 2.2 Ideation Boards
+### 2.2 Ideation Boards 🗺️
 
 **Board 1: Problem Tree & Root Cause Analysis**
 
@@ -154,7 +154,7 @@ These flowcharts compare planning across separate tools with the proposed NovaTr
 
 This mind map connects our ideas for trip creation, group decisions, travel updates and mobile use. It also records key choices, including moving from one AI plan to three options and choosing a mobile app over a website for the first version.
 
-### 2.3 Mentor Consultation
+### 2.3 Mentor Consultation 💬 
 
 <table>
 <tbody>
@@ -223,13 +223,13 @@ This mind map connects our ideas for trip creation, group decisions, travel upda
 </tbody>
 </table>
 
-## 3. Design & Prototype
+## 3. Design & Prototype 🎨
 
 **UI Prototype Demo:** [Prototype Demo](https://www.figma.com/proto/vcj7s48Y4CAV4pw1FBNIxP/Travel-Planner?node-id=25-6&p=f&t=sRMKQhagVMigy6gw-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A6)
 
 **Prototype Design View:** [Design View](https://www.figma.com/design/vcj7s48Y4CAV4pw1FBNIxP/Travel-Planner?node-id=0-1&p=f&t=rrtrtECUUd87Gykt-0)
 
-### 3.1 Key Screen Demonstrations & Interactions
+### 3.1 Key Screen Demonstrations & Interactions 📱
 
 The following workflows show how NovaTrip supports solo and group travellers from creating a trip to managing changes, recording expenses and sharing memories. Each workflow includes the relevant screens, user actions and the next step.
 
@@ -592,9 +592,9 @@ Users can turn trip photos into a postcard using the Map trail, Classic or Colla
 
 The preview provides controls to change photos and edit text before downloading or sharing the postcard. This extends the album from storing photos to creating a personal travel keepsake.
 
-## 4. What Makes It Different
+## 4. What Makes It Different ⭐
 
-### 4.1 Novel Features & The Core Twist
+### 4.1 Novel Features & The Core Twist 💡
 
 **1. Guided Preference Profiling & Must-Do Curation**
 
@@ -624,7 +624,7 @@ The preview provides controls to change photos and edit text before downloading 
 
 - **What is Original / The Twist**: Replaces buried phone photo dumps and chaotic album links with a contextual footprint gallery organized by geographic coordinates and travel days. Beyond chronological and map pin browsing, NovaTrip features a built-in keepsake postcard generator, allowing groups to transform collective photos into stylized keepsakes (Map-trail, Classic, or Collage) ready for instant sharing and export.
 
-### 4.2 Competitive Differentiation Matrix
+### 4.2 Competitive Differentiation Matrix 📊
 
 | Capability / Feature Dimension                                                        | NovaTrip — Proposed Design                                                                                                                   | Wanderlog                                                                                                                                                               | TripIt / TripIt Pro                                                                                                                                                   | Sygic Travel / Sygic                                                                                                                           |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -638,7 +638,7 @@ The preview provides controls to change photos and edit text before downloading 
 
 NovaTrip’s main design focus is the connection between these steps: collecting preferences, comparing three plans, reviewing changes around existing bookings, and approving shared updates through Trip Chat.
 
-### 4.3 Reach & Scalability
+### 4.3 Reach & Scalability 📈
 
 - **Growth Through Group Invitations:** Every shared itinerary becomes an organic acquisition loop. Organizers invite 3–6 companions to create private profiles, vote on trip plans, and track shared expenses. These participants can later become trip organizers and invite their own groups.
 
@@ -646,9 +646,9 @@ NovaTrip’s main design focus is the connection between these steps: collecting
 
 - **Horizontal Expansion Beyond Leisure Travel**: While designed for friend groups and solo travelers, NovaTrip’s core features—private preference synthesis, dynamic rescheduling, and automated expense splitting—can also support university trips, student society retreats, and corporate team-building with further work on permissions, larger groups and administration.
 
-## 5. Technical Architecture & Feasibility
+## 5. Technical Architecture & Feasibility ⚙️
 
-### 5.1 Tech Stack Justification & Engineering Constraints
+### 5.1 Tech Stack Justification & Engineering Constraints 🛠️
 
 **Frontend: Flutter (Dart)**
 
@@ -674,7 +674,7 @@ NovaTrip’s main design focus is the connection between these steps: collecting
 
 - **Geospatial & Navigation: Google Maps Platform / Mapbox:** A single mapping provider will be selected based on the required map, routing, place, and ETA capabilities. For the competition prototype, representative transit and accommodation data may be seeded or simulated where live third-party data is not available. Client-side caching and limiting unnecessary API requests will reduce latency and help keep usage within available free quotas.
 
-### 5.2 System Architecture Diagram
+### 5.2 System Architecture Diagram 🏗️
 
 <p align="left">
   <a href="assets/media/image62.png">
@@ -688,7 +688,7 @@ NovaTrip’s main design focus is the connection between these steps: collecting
   </a>
 </p>
 
-### 5.3 Build Plan, Scope Realism & Resource Awareness
+### 5.3 Build Plan, Scope Realism & Resource Awareness 📅
 
 To ensure high engineering feasibility within the competition timeframe, NovaTrip follows a clearly defined build strategy. Instead of trying to build a full travel super-app, the building phase focuses on validating our core value loop: **can guided preference profiling and dynamic in-trip rescheduling reduce coordination friction?**
 
@@ -782,7 +782,7 @@ To ensure high engineering feasibility within the competition timeframe, NovaTri
 
 - **Estimated Build-Phase Cost:** **RM0–RM25**, assuming Gemini and the selected map provider remain within their available free usage limits. No cloud hosting subscription is required for the competition MVP.
 
-### 5.4 Future Enhancements & Scalability Roadmap
+### 5.4 Future Enhancements & Scalability Roadmap 🔮
 
 Following the validation of NovaTrip's core planning-to-execution loop during the MVP phase, the architecture can be extended in the following areas:
 
