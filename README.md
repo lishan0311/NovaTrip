@@ -6,11 +6,11 @@
 
 **Video Presentation:** <u>Unlisted Youtube Link</u>
 
-**Presentation Slides: [Canva Link](https://www.canva.com/design/DAHU6XS3EJk/EKB2IDizf7j8-QgmCtF-Qg/edit)**
+**Presentation Slides:** [Canva Link](https://www.canva.com/design/DAHU6XS3EJk/EKB2IDizf7j8-QgmCtF-Qg/edit)
 
 ## 1. Project Overview
 
-### 1.1 The Problem 
+### 1.1 The Problem
 
 Planning a trip involves keeping track of bookings, routes, activities, costs and personal preferences. When this information is spread across booking websites, maps, documents and messaging apps, travellers have to bring it together manually. Updating one part of the trip can also mean checking and changing information in several places.
 
@@ -32,43 +32,46 @@ Overall, these platforms treat travel plans as static documents rather than livi
 
 ### 1.2 Our Solution
 
-<a href="assets/media/image1.png"><img src="assets/media/image1.png" alt="NovaTrip overview" width="367" /></a>
+<p align="center">
+  <a href="assets/media/image1.png"><img src="assets/media/image1.png" alt="NovaTrip overview" width="367" /></a>
+</p>
 
 NovaTrip is an all-in-one collaborative travel app that brings group planning, on-the-go trip management, budgeting, and shared memories into one low-cognitive-load mobile platform. It bridges the gap between static travel plans and real-world changes by turning individual preferences into a shared travel plan and the itinerary into an active hub for the whole group. Designed for both friend groups and solo travelers, NovaTrip aims to reduce switching between apps, make group choices clearer, and help travelers adjust their itineraries and track spending.
 
 **Core Feature-Set:**
 
-1.  **Guided Preference Profiling & Must-Do Curation**
+**1. Guided Preference Profiling & Must-Do Curation**
 
 A simple 4-step questionnaire captures each traveler's preferred trip style: pacing (Relaxed, Packed, or Immersive), top travel priorities (Food, Activities, Photo spots, Shopping), dining preferences, and specific landmark "must-dos" (e.g., Senso-ji, Tokyo Skytree). An optional Notes field on the food preference screen lets users add specific food requests or items to avoid that are not covered by the listed options. Each traveller can enter a personal budget for the whole trip or select No preference if they do not want to set a spending limit. Their budget choice is private and is used alongside their other preferences during planning. These inputs are used as the starting point for generating the group's itinerary options.
 
-2.  **AI 3-Blueprint Synthesis & Group Voting**
+**2. AI 3-Blueprint Synthesis & Group Voting**
 
 The AI uses members’ preferences, any personal budgets they have provided, and existing bookings to generate three itinerary options: Group Favourite, Budget Smart, and Easy Pace. Members can compare the options using a "Compare at a glance" matrix, including estimated total cost, number of activities, and pace rating. For group trips, members vote for a plan or select No preference. Total vote counts are visible, while individual voters’ names are hidden. Solo travelers choose a plan directly.
 
-3.  **Living Vertical Timeline & Live Cockpit**
+**3. Living Vertical Timeline & Live Cockpit**
 
 The app provides three main views: Today, Full Trip, and Map. The Today view features a sticky "NOW" cockpit with live transit status (e.g., Narita Express ON TIME), arrival countdowns, platform and seat details, and direct Google Maps navigation links. Upcoming activities are automatically organised into "Next" and "Later today", with walking time between stops, dining cost information, and booking confirmation tags.
 
-4.  **Multi-Platform Price Comparison & Ticket Ingestion Hub**
+**4. Multi-Platform Price Comparison & Ticket Ingestion Hub**
 
 The app compares accommodation prices from major OTAs such as Agoda, Trip.com, and Booking.com in both list and map views. For bookings made outside the app, users can upload ticket PDFs or screenshots through the "Mark as booked" workflow. Uploaded ticket PDFs or screenshots are ingested via smart ticket scanning to automatically extract booking references, times, and amounts. Users can then choose to add the expense to the shared ledger with a one-tap toggle.
 
-5.  **Context-Aware Replanning & Event-Driven Workspace**
+**5. Context-Aware Replanning & Event-Driven Workspace**
 
 An AI-powered coordination hub combines group messaging with interactive system action cards. When disruptions occur, travelers can open the Trip Assistant from the itinerary view and tap the one-touch "Reschedule my itinerary" button or provide a voice/text input. The AI Copilot checks how the change affects the remaining itinerary and presents a Before/After proposal that takes existing bookings into account. For group trips, confirming the proposal creates an “Approve changes” or “Keep original itinerary” poll in Trip Chat. The current itinerary remains unchanged while voting is pending. Solo travelers confirm their own changes without a group poll. The workspace also includes collaborative photo drop alerts within the chat.
 
-6.  **Stop-Linked Ledger & Smart Net Debt Settlement**
+**6. Stop-Linked Ledger & Smart Net Debt Settlement**
 
 Users can select an itinerary item to pre-fill an expense or add other expenses separately. They check the amount, payer and participants before saving, with equal or custom splits available for shared costs. The ledger tracks overall trip spending against the estimated budget and calculates how much each member owes or should receive. It provides peer balance cards with itemised expenses, one-tap "Remind" alerts, and “Mark as settled” to record payments made outside the app.
 
-7.  **Interactive Footprint Scrapbook & Keepsake Postcards**
+**7. Interactive Footprint Scrapbook & Keepsake Postcards**
 
 The app organises trip photos by itinerary stops and location, which can be viewed through interactive map pins or a chronological day-by-day album. Users can export customised keepsakes through the built-in "Create postcard" generator using Map-trail, Classic, or Collage templates for easy sharing and downloading.
 
 ## 2. Ideation & Process
 
 ### 2.1 Ideas We Considered
+
 We first compared the two problem statements and chose the one that our team was more familiar with. We then discussed how travellers would create a trip, choose a plan, manage bookings and costs, and handle changes during the trip.
 
 Our main considerations were whether an idea addressed a clear user need, made the trip easier to manage, and suited our team’s time and resources. The table below lists the ideas we kept first, followed by the approaches we decided not to use.
@@ -101,25 +104,33 @@ We also expanded the design to support more of the trip. Existing bookings becam
 Later mentor feedback led to further changes, including itinerary-change polls, free-text food preferences, and postcard creation. Section 2.3 records that feedback and how we responded.
 
 ### 2.2 Ideation Boards
+
 **Board 1: Problem Tree & Root Cause Analysis**
 
-<a href="assets/media/image2.png"><img src="assets/media/image2.png" alt="Ideation board" width="780" /></a>
+<p align="center">
+  <a href="assets/media/image2.png"><img src="assets/media/image2.png" alt="Ideation board" width="780" /></a>
+</p>
 
 This problem tree links scattered information, changing trip times, different payments and travel preferences to the difficulties travellers face. It helped our team focus NovaTrip on keeping trip details together, adjusting itineraries, tracking costs and supporting group decisions.
 
 **Board 2: End-to-End Journey Flowchart (As-Is vs. To-Be)**
 
-<a href="assets/media/image3.png"><img src="assets/media/image3.png" alt="Ideation board" width="435" /></a>
+<p align="center">
+  <a href="assets/media/image3.png"><img src="assets/media/image3.png" alt="Ideation board" width="435" /></a>
+</p>
 
 These flowcharts compare planning across separate tools with the proposed NovaTrip journey for solo and group travellers. They show how our team designed AI planning, booking imports, group voting and cost calculations to reduce manual work while keeping users in control of their choices.
 
 **Board 3: MindMap**
 
-<a href="assets/media/image4.png"><img src="assets/media/image4.png" alt="Ideation board" width="780" /></a>
+<p align="center">
+  <a href="assets/media/image4.png"><img src="assets/media/image4.png" alt="Ideation board" width="780" /></a>
+</p>
 
 This mind map connects our ideas for trip creation, group decisions, travel updates and mobile use. It also records key choices, including moving from one AI plan to three options and choosing a mobile app over a website for the first version.
 
 ### 2.3 Mentor Consultation
+
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -179,40 +190,51 @@ This mind map connects our ideas for trip creation, group decisions, travel upda
 The following workflows show how NovaTrip supports solo and group travellers from creating a trip to managing changes, recording expenses and sharing memories. Each workflow includes the relevant screens, user actions and the next step.
 
 #### 3.1.1 Creating and Joining a Trip
+
 NovaTrip offers manual and AI-assisted trip creation. Both options let users check their trip details before creating the trip.
 
-<a href="assets/media/image5.png"><img src="assets/media/image5.png" alt="NovaTrip prototype screen 1" width="220" /></a>
-<a href="assets/media/image6.png"><img src="assets/media/image6.png" alt="NovaTrip prototype screen 2" width="220" /></a>
-<a href="assets/media/image7.png"><img src="assets/media/image7.png" alt="NovaTrip prototype screen 3" width="220" /></a>
-
 **Manual trip creation**
+
+<p align="center">
+  <a href="assets/media/image5.png"><img src="assets/media/image5.png" alt="NovaTrip prototype screen 1" width="240" /></a>
+  <a href="assets/media/image6.png"><img src="assets/media/image6.png" alt="NovaTrip prototype screen 2" width="240" /></a>
+  <a href="assets/media/image7.png"><img src="assets/media/image7.png" alt="NovaTrip prototype screen 3" width="240" /></a>
+</p>
 
 From Home, users select New trip to enter their destination, departure city, travel dates or trip length, and currency. They can choose Solo or Group and set the number of travellers.
 
 Users who have not decided on exact dates can enter the number of days first. They can also add existing bookings so the itinerary can be planned around arrangements they have already made.
 
-**  
-**
-
-<a href="assets/media/image8.png"><img src="assets/media/image8.png" alt="NovaTrip prototype screen 4" width="220" /></a>
-<a href="assets/media/image9.png"><img src="assets/media/image9.png" alt="NovaTrip prototype screen 5" width="220" /></a>
-<a href="assets/media/image10.png"><img src="assets/media/image10.png" alt="NovaTrip prototype screen 6" width="220" /></a>
-<a href="assets/media/image11.png"><img src="assets/media/image11.png" alt="NovaTrip prototype screen 7" width="220" /></a>
-<a href="assets/media/image12.png"><img src="assets/media/image12.png" alt="NovaTrip prototype screen 8" width="220" /></a>
-
 **AI-assisted trip creation**
 
-<a href="assets/media/image13.png"><img src="assets/media/image13.png" alt="NovaTrip prototype screen 9" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image8.png"><img src="assets/media/image8.png" alt="NovaTrip prototype screen 4" width="240" /></a>
+  <a href="assets/media/image9.png"><img src="assets/media/image9.png" alt="NovaTrip prototype screen 5" width="240" /></a>
+  <a href="assets/media/image10.png"><img src="assets/media/image10.png" alt="NovaTrip prototype screen 6" width="240" /></a>
+</p>
+
+<p align="center">
+  <a href="assets/media/image11.png"><img src="assets/media/image11.png" alt="NovaTrip prototype screen 7" width="240" /></a>
+  <a href="assets/media/image12.png"><img src="assets/media/image12.png" alt="NovaTrip prototype screen 8" width="240" /></a>
+</p>
+
+<p align="center">
+  <a href="assets/media/image13.png"><img src="assets/media/image13.png" alt="NovaTrip prototype screen 9" width="240" /></a>
+</p>
 
 Users can open the trip assistant and describe the trip they want. If information is missing, the assistant asks follow-up questions about the destination, trip length, departure city, travel type and existing bookings.
 
 The assistant then presents a summary for review. Users can correct the details before selecting Create trip. This gives users a way to describe their plans in their own words while still checking the information used to create the trip.
 
-<a href="assets/media/image14.png"><img src="assets/media/image14.png" alt="NovaTrip prototype screen 10" width="220" /></a>
-
 **Creating a trip from a complete request**
 
-<a href="assets/media/image15.png"><img src="assets/media/image15.png" alt="NovaTrip prototype screen 11" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image14.png"><img src="assets/media/image14.png" alt="NovaTrip prototype screen 10" width="240" /></a>
+</p>
+
+<p align="center">
+  <a href="assets/media/image15.png"><img src="assets/media/image15.png" alt="NovaTrip prototype screen 11" width="240" /></a>
+</p>
 
 Users can also provide the main trip details in one message. In the example shown, the assistant prepares a review card containing the destination, dates, departure city and number of travellers.
 
@@ -220,25 +242,29 @@ After checking and creating the trip, users can select Open trip or Set preferen
 
 **Inviting and joining group members**
 
-<a href="assets/media/image16.png"><img src="assets/media/image16.png" alt="NovaTrip prototype screen 12" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image16.png"><img src="assets/media/image16.png" alt="NovaTrip prototype screen 12" width="240" /></a>
+</p>
 
 For group trips, the organiser can share an invitation link or code. The invitation page shows the members who have joined and provides an entry to the preference setup. Solo travellers continue with their own preferences without inviting other members.
 
-**  
-**
-
 #### 3.1.2 Setting Travel Preferences
+
 NovaTrip collects preferences through four steps. These inputs help shape the itinerary around what travellers want to do, how they want to travel and any specific needs.
 
-<a href="assets/media/image17.png"><img src="assets/media/image17.png" alt="NovaTrip prototype screen 13" width="220" /></a>
-
 **Step 1: How do you want this trip to feel?**
+
+<p align="center">
+  <a href="assets/media/image17.png"><img src="assets/media/image17.png" alt="NovaTrip prototype screen 13" width="240" /></a>
+</p>
 
 Users choose between Relaxed, Packed and Immersive. This sets the preferred travel pace, from leaving more free time to including more activities or spending longer exploring each place.
 
 **Step 2: What matters most?**
 
-<a href="assets/media/image18.png"><img src="assets/media/image18.png" alt="NovaTrip prototype screen 14" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image18.png"><img src="assets/media/image18.png" alt="NovaTrip prototype screen 14" width="240" /></a>
+</p>
 
 Users select and rank up to two main interests, such as food, activities, photo spots or shopping. They can also choose the types of places they enjoy and adjust travel-style preferences.
 
@@ -246,19 +272,20 @@ These choices help distinguish between travellers who want different experiences
 
 Budget choices are private. For group trips, NovaTrip checks each member’s estimated costs against any budget they have provided. Choosing No preference does not change that member’s responsibility for shared expenses.
 
-**  
-**
-
-<a href="assets/media/image19.png"><img src="assets/media/image19.png" alt="NovaTrip prototype screen 15" width="220" /></a>
-
 **Step 3: Tell us your food style**
+
+<p align="center">
+  <a href="assets/media/image19.png"><img src="assets/media/image19.png" alt="NovaTrip prototype screen 15" width="240" /></a>
+</p>
 
 Users select food styles and dietary needs. The optional Notes field allows them to add specific requests or foods to avoid when the predefined choices are not enough. Users can also select No preference if they do not have a particular food preference.
 
-Step 4: Add your must-dos
+**Step 4: Add your must-dos**
 
-<a href="assets/media/image20.png"><img src="assets/media/image20.png" alt="NovaTrip prototype screen 16" width="220" /></a>
-<a href="assets/media/image21.png"><img src="assets/media/image21.png" alt="NovaTrip prototype screen 17" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image20.png"><img src="assets/media/image20.png" alt="NovaTrip prototype screen 16" width="240" /></a>
+  <a href="assets/media/image21.png"><img src="assets/media/image21.png" alt="NovaTrip prototype screen 17" width="240" /></a>
+</p>
 
 Users can search for places or browse suggested attractions, activities, restaurants and other options. The List and Map views let them compare places using information such as ratings, prices and locations.
 
@@ -266,19 +293,21 @@ Users can select places they want included, remove a selection or skip this step
 
 **Checking group readiness**
 
-<a href="assets/media/image22.png"><img src="assets/media/image22.png" alt="NovaTrip prototype screen 18" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image22.png"><img src="assets/media/image22.png" alt="NovaTrip prototype screen 18" width="240" /></a>
+</p>
 
 For group trips, the Overview shows which members have completed their preferences and who is still pending. The organiser can send reminders without collecting and summarising everyone’s answers through a separate chat.
 
 Plan generation begins once the required preferences are ready. Solo travellers only need to complete their own inputs.
 
-**  
-**
-
 #### 3.1.3 Comparing and Choosing a Plan
-<a href="assets/media/image23.png"><img src="assets/media/image23.png" alt="NovaTrip prototype screen 19" width="220" /></a>
-<a href="assets/media/image24.png"><img src="assets/media/image24.png" alt="NovaTrip prototype screen 20" width="220" /></a>
-<a href="assets/media/image25.png"><img src="assets/media/image25.png" alt="NovaTrip prototype screen 21" width="220" /></a>
+
+<p align="center">
+  <a href="assets/media/image23.png"><img src="assets/media/image23.png" alt="NovaTrip prototype screen 19" width="240" /></a>
+  <a href="assets/media/image24.png"><img src="assets/media/image24.png" alt="NovaTrip prototype screen 20" width="240" /></a>
+  <a href="assets/media/image25.png"><img src="assets/media/image25.png" alt="NovaTrip prototype screen 21" width="240" /></a>
+</p>
 
 NovaTrip generates three plans with different priorities, such as Group Favourites, Budget Smart and Easy Pace. Users can compare the options before deciding which plan suits their trip.
 
@@ -288,17 +317,19 @@ Selecting View full itinerary opens the proposed schedule. Users can inspect the
 
 Solo travellers can choose a plan directly. For group trips, members vote for a plan or select No preference. The plan cards show vote totals without displaying the names of the voters. The plan with the most votes is selected. If all members select No preference in the plan vote, NovaTrip selects the AI-recommended plan. If plans tie for the most votes, the tied plan with the highest AI score is selected. Voting closes after every member has selected a plan or No preference.
 
-<a href="assets/media/image26.png"><img src="assets/media/image26.png" alt="NovaTrip prototype screen 22" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image26.png"><img src="assets/media/image26.png" alt="NovaTrip prototype screen 22" width="240" /></a>
+</p>
 
 Once a plan is selected, the Overview presents the chosen itinerary, trip progress and entries to bookings, budget, Trip Chat and Trip Album. This connects the planning stage with the tools users need to prepare for and follow the trip.
 
-**  
-**
-
 #### 3.1.4 Following the Trip
-<a href="assets/media/image27.png"><img src="assets/media/image27.png" alt="NovaTrip prototype screen 23" width="220" /></a>
-<a href="assets/media/image28.png"><img src="assets/media/image28.png" alt="NovaTrip prototype screen 24" width="220" /></a>
-<a href="assets/media/image29.png"><img src="assets/media/image29.png" alt="NovaTrip prototype screen 25" width="220" /></a>
+
+<p align="center">
+  <a href="assets/media/image27.png"><img src="assets/media/image27.png" alt="NovaTrip prototype screen 23" width="240" /></a>
+  <a href="assets/media/image28.png"><img src="assets/media/image28.png" alt="NovaTrip prototype screen 24" width="240" /></a>
+  <a href="assets/media/image29.png"><img src="assets/media/image29.png" alt="NovaTrip prototype screen 25" width="240" /></a>
+</p>
 
 NovaTrip provides Today, Full trip and Map views so users can follow the current activity or check the wider itinerary.
 
@@ -308,16 +339,16 @@ The Full trip view lets users select a day and review its activities, transport 
 
 Users can select Directions or Open in Google Maps when they need navigation. This keeps the itinerary as the starting point while allowing users to open detailed directions when needed.
 
-**  
-**
-
 #### 3.1.5 Changing the Itinerary
+
 Travellers may need to change their plans because of delays, long queues, closures or new preferences. NovaTrip provides itinerary edit controls and an AI-assisted route for reviewing possible changes.
 
-<a href="assets/media/image30.png"><img src="assets/media/image30.png" alt="NovaTrip prototype screen 26" width="220" /></a>
-<a href="assets/media/image31.png"><img src="assets/media/image31.png" alt="NovaTrip prototype screen 27" width="220" /></a>
-
 **Requesting and reviewing an AI adjustment**
+
+<p align="center">
+  <a href="assets/media/image30.png"><img src="assets/media/image30.png" alt="NovaTrip prototype screen 26" width="240" /></a>
+  <a href="assets/media/image31.png"><img src="assets/media/image31.png" alt="NovaTrip prototype screen 27" width="240" /></a>
+</p>
 
 Users can open the trip assistant or select Reschedule my itinerary, then describe the situation through text or voice.
 
@@ -327,9 +358,11 @@ Users can confirm the proposal, keep the original plan or ask for another change
 
 **Confirming changes for a group**
 
-<a href="assets/media/image32.png"><img src="assets/media/image32.png" alt="NovaTrip prototype screen 28" width="220" /></a>
-<a href="assets/media/image33.png"><img src="assets/media/image33.png" alt="NovaTrip prototype screen 29" width="220" /></a>
-<a href="assets/media/image34.png"><img src="assets/media/image34.png" alt="NovaTrip prototype screen 30" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image32.png"><img src="assets/media/image32.png" alt="NovaTrip prototype screen 28" width="240" /></a>
+  <a href="assets/media/image33.png"><img src="assets/media/image33.png" alt="NovaTrip prototype screen 29" width="240" /></a>
+  <a href="assets/media/image34.png"><img src="assets/media/image34.png" alt="NovaTrip prototype screen 30" width="240" /></a>
+</p>
 
 In the group workflow, confirming the proposal creates an itinerary-change poll in Trip Chat. Members can choose Approve changes or Keep original itinerary.
 
@@ -337,16 +370,16 @@ The poll shows voting progress, and the current itinerary remains unchanged whil
 
 Solo travellers confirm their own changes without a group poll. Changes to the itinerary do not automatically change reservations made on external booking platforms.
 
-**  
-**
-
 #### 3.1.6 Managing Bookings
+
 NovaTrip supports travellers who already have bookings, those who want to book suggested options and those who want to find alternatives.
 
-<a href="assets/media/image35.png"><img src="assets/media/image35.png" alt="NovaTrip prototype screen 31" width="220" /></a>
-<a href="assets/media/image12.png"><img src="assets/media/image12.png" alt="NovaTrip prototype screen 8" width="220" /></a>
-
 **Adding existing bookings**
+
+<p align="center">
+  <a href="assets/media/image35.png"><img src="assets/media/image35.png" alt="NovaTrip prototype screen 31" width="240" /></a>
+  <a href="assets/media/image12.png"><img src="assets/media/image12.png" alt="NovaTrip prototype screen 8" width="240" /></a>
+</p>
 
 Users can add existing flights, accommodation, transport or activity bookings during trip setup. They can upload a screenshot or PDF or enter the details manually.
 
@@ -354,7 +387,9 @@ The upload flow fills in detected information for review. Users check the detail
 
 **Comparing and booking suggested options**
 
-<a href="assets/media/image36.png"><img src="assets/media/image36.png" alt="NovaTrip prototype screen 32" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image36.png"><img src="assets/media/image36.png" alt="NovaTrip prototype screen 32" width="240" /></a>
+</p>
 
 The Suggested tab presents booking options related to the itinerary. Users can compare provider prices and select Book to open an external booking website.
 
@@ -362,8 +397,10 @@ After completing a booking, users return to NovaTrip and select Mark as booked t
 
 **Searching for alternatives**
 
-<a href="assets/media/image37.png"><img src="assets/media/image37.png" alt="NovaTrip prototype screen 33" width="220" /></a>
-<a href="assets/media/image38.png"><img src="assets/media/image38.png" alt="NovaTrip prototype screen 34" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image37.png"><img src="assets/media/image37.png" alt="NovaTrip prototype screen 33" width="240" /></a>
+  <a href="assets/media/image38.png"><img src="assets/media/image38.png" alt="NovaTrip prototype screen 34" width="240" /></a>
+</p>
 
 If users do not want a suggested hotel, they can select Search alternatives. The search view supports filters such as price, star rating and area.
 
@@ -371,16 +408,16 @@ Users can browse results in a list or on a map, compare provider prices and open
 
 When saving booking details, users can specify whether the recorded price covers all travellers or one person. They can also choose whether to add the cost to Budget, connecting the booking record with actual spending.
 
-**  
-**
-
 #### 3.1.7 Tracking the Budget and Adding Expenses
+
 NovaTrip separates planned costs from recorded spending through Trip Budget and Actual Expenses. Personal budgets entered in Step 2 are planning preferences. After a plan is selected, Trip Budget shows the estimated costs of that itinerary, while Actual Expenses records saved spending.
 
-<a href="assets/media/image39.png"><img src="assets/media/image39.png" alt="NovaTrip prototype screen 35" width="220" /></a>
-<a href="assets/media/image40.png"><img src="assets/media/image40.png" alt="NovaTrip prototype screen 36" width="220" /></a>
-
 **Reviewing estimated and actual costs**
+
+<p align="center">
+  <a href="assets/media/image39.png"><img src="assets/media/image39.png" alt="NovaTrip prototype screen 35" width="240" /></a>
+  <a href="assets/media/image40.png"><img src="assets/media/image40.png" alt="NovaTrip prototype screen 36" width="240" /></a>
+</p>
 
 The Trip Budget view shows the estimated trip cost, daily costs and the amount remaining against the budget. The Actual Expenses view shows recorded expenses, including booking costs added to Budget and expenses entered by users.
 
@@ -388,19 +425,20 @@ This helps travellers compare what they expect to spend with what they have reco
 
 **Adding an expense from the itinerary**
 
-<a href="assets/media/image41.png"><img src="assets/media/image41.png" alt="NovaTrip prototype screen 37" width="220" /></a>
-<a href="assets/media/image42.png"><img src="assets/media/image42.png" alt="NovaTrip prototype screen 38" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image41.png"><img src="assets/media/image41.png" alt="NovaTrip prototype screen 37" width="240" /></a>
+  <a href="assets/media/image42.png"><img src="assets/media/image42.png" alt="NovaTrip prototype screen 38" width="240" /></a>
+</p>
 
 Users select Add expense and choose an item from their itinerary. The selected activity provides the trip details, reducing the need to type them again.
 
 Users then check the amount, payer and date, add an optional note, and choose whether the expense is individual or shared.
 
-**  
-**
-
-<a href="assets/media/image43.png"><img src="assets/media/image43.png" alt="NovaTrip prototype screen 39" width="220" /></a>
-
 **Adding an expense outside the itinerary**
+
+<p align="center">
+  <a href="assets/media/image43.png"><img src="assets/media/image43.png" alt="NovaTrip prototype screen 39" width="240" /></a>
+</p>
 
 For unplanned spending, users can create a new expense by entering its details or uploading a receipt through Take photo or Choose file.
 
@@ -408,22 +446,24 @@ Detected information can be reviewed and corrected before the expense is saved. 
 
 **Choosing how to split the cost**
 
-<a href="assets/media/image44.png"><img src="assets/media/image44.png" alt="NovaTrip prototype screen 40" width="220" /></a>
-<a href="assets/media/image45.png"><img src="assets/media/image45.png" alt="NovaTrip prototype screen 41" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image44.png"><img src="assets/media/image44.png" alt="NovaTrip prototype screen 40" width="240" /></a>
+  <a href="assets/media/image45.png"><img src="assets/media/image45.png" alt="NovaTrip prototype screen 41" width="240" /></a>
+</p>
 
 For shared expenses, users select the members who participated and choose Equal or Custom amounts. Members who did not take part can be excluded.
 
 The review page shows the amount, payer and each member’s share before the user selects Add expense. The saved expense updates actual spending and the relevant group balances. Individual expenses remain outside group settlement.
 
-**  
-**
-
 #### 3.1.8 Checking and Settling Balances
+
 The Settlement workflow helps group members understand who owes money, who should receive money and how each balance was calculated.
 
-<a href="assets/media/image46.png"><img src="assets/media/image46.png" alt="NovaTrip prototype screen 42" width="220" /></a>
-<a href="assets/media/image47.png"><img src="assets/media/image47.png" alt="NovaTrip prototype screen 43" width="220" /></a>
-<a href="assets/media/image48.png"><img src="assets/media/image48.png" alt="NovaTrip prototype screen 44" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image46.png"><img src="assets/media/image46.png" alt="NovaTrip prototype screen 42" width="240" /></a>
+  <a href="assets/media/image47.png"><img src="assets/media/image47.png" alt="NovaTrip prototype screen 43" width="240" /></a>
+  <a href="assets/media/image48.png"><img src="assets/media/image48.png" alt="NovaTrip prototype screen 44" width="240" /></a>
+</p>
 
 The settlement summary separates To receive and You owe amounts. Users can select View calculation to compare their share of group expenses with the amount they have paid.
 
@@ -431,12 +471,12 @@ Opening a member’s balance shows the related expense breakdown. This helps use
 
 Users can send reminders and select Mark as settled after a payment has been completed. This records the settlement status; it does not transfer money. Solo travellers can review their own spending without using group settlement.
 
-**  
-**
-
 #### 3.1.9 Communicating in Trip Chat
-<a href="assets/media/image33.png"><img src="assets/media/image33.png" alt="NovaTrip prototype screen 45" width="220" /></a>
-<a href="assets/media/image50.png"><img src="assets/media/image50.png" alt="NovaTrip prototype screen 46" width="220" /></a>
+
+<p align="center">
+  <a href="assets/media/image33.png"><img src="assets/media/image33.png" alt="NovaTrip prototype screen 45" width="240" /></a>
+  <a href="assets/media/image50.png"><img src="assets/media/image50.png" alt="NovaTrip prototype screen 46" width="240" /></a>
+</p>
 
 Trip Chat gives group members a place to discuss the trip alongside itinerary updates, polls and shared photos.
 
@@ -446,12 +486,12 @@ Itinerary-change polls also appear in Trip Chat, allowing members to review and 
 
 This reduces the need to create a separate travel discussion group and repeatedly copy updates between the itinerary and a messaging app.
 
-**  
-**
-
 #### 3.1.10 Using Accessibility Settings
-<a href="assets/media/image51.png"><img src="assets/media/image51.png" alt="NovaTrip prototype screen 47" width="220" /></a>
-<a href="assets/media/image52.png"><img src="assets/media/image52.png" alt="NovaTrip prototype screen 48" width="220" /></a>
+
+<p align="center">
+  <a href="assets/media/image51.png"><img src="assets/media/image51.png" alt="NovaTrip prototype screen 47" width="240" /></a>
+  <a href="assets/media/image52.png"><img src="assets/media/image52.png" alt="NovaTrip prototype screen 48" width="240" /></a>
+</p>
 
 NovaTrip includes accessibility settings so users can adjust how they read and interact with the app.
 
@@ -461,13 +501,13 @@ Display controls allow users to adjust text size and choose between the default,
 
 The page also includes screen reader support information and a reduce-motion option. Together, these controls are intended to make trip information easier to access and follow.
 
-**  
-**
-
 #### 3.1.11 Exploring Travel Ideas
+
 Explore helps users find travel ideas when they are unsure what they want to do or want to discover additional options.
 
-<a href="assets/media/image53.png"><img src="assets/media/image53.png" alt="NovaTrip prototype screen 49" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image53.png"><img src="assets/media/image53.png" alt="NovaTrip prototype screen 49" width="240" /></a>
+</p>
 
 Users can search for places, tips or stories and browse categories such as For you, Food, Hidden gems, Day trips and Budget.
 
@@ -475,17 +515,17 @@ Recommendation cards provide a preview, with Open and Save to trip actions. User
 
 Explore can be used while planning or during the trip. Saving an idea does not mean that it immediately replaces an activity in the confirmed itinerary, but it will be considered when the AI generates a plan.
 
-**  
-**
-
 #### 3.1.12 Sharing Photos and Creating Postcards
+
 Trip Album keeps travel photos together and offers different ways to browse, upload, download and share them.
 
-<a href="assets/media/image54.png"><img src="assets/media/image54.png" alt="NovaTrip prototype screen 50" width="220" /></a>
-<a href="assets/media/image55.png"><img src="assets/media/image55.png" alt="NovaTrip prototype screen 51" width="220" /></a>
-<a href="assets/media/image56.png"><img src="assets/media/image56.png" alt="NovaTrip prototype screen 52" width="220" /></a>
-
 **Browsing trip photos**
+
+<p align="center">
+  <a href="assets/media/image54.png"><img src="assets/media/image54.png" alt="NovaTrip prototype screen 50" width="240" /></a>
+  <a href="assets/media/image55.png"><img src="assets/media/image55.png" alt="NovaTrip prototype screen 51" width="240" /></a>
+  <a href="assets/media/image56.png"><img src="assets/media/image56.png" alt="NovaTrip prototype screen 52" width="240" /></a>
+</p>
 
 Users can switch between Map and All photos. The map groups photos around places, while the gallery presents photos by trip day.
 
@@ -493,8 +533,10 @@ Opening a place shows its photo collection and contributors. Users can download 
 
 **Adding and reviewing photos**
 
-<a href="assets/media/image57.png"><img src="assets/media/image57.png" alt="NovaTrip prototype screen 53" width="220" /></a>
-<a href="assets/media/image58.png"><img src="assets/media/image58.png" alt="NovaTrip prototype screen 54" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image57.png"><img src="assets/media/image57.png" alt="NovaTrip prototype screen 53" width="240" /></a>
+  <a href="assets/media/image58.png"><img src="assets/media/image58.png" alt="NovaTrip prototype screen 54" width="240" /></a>
+</p>
 
 Users select Add photos to choose images from their device or access the camera. Before uploading, they review the selected photos and check the suggested location.
 
@@ -502,9 +544,11 @@ They can change the location, review the date and sharing details, and add an op
 
 **Creating a postcard**
 
-<a href="assets/media/image59.png"><img src="assets/media/image59.png" alt="NovaTrip prototype screen 55" width="220" /></a>
-<a href="assets/media/image60.png"><img src="assets/media/image60.png" alt="NovaTrip prototype screen 56" width="220" /></a>
-<a href="assets/media/image61.png"><img src="assets/media/image61.png" alt="NovaTrip prototype screen 57" width="220" /></a>
+<p align="center">
+  <a href="assets/media/image59.png"><img src="assets/media/image59.png" alt="NovaTrip prototype screen 55" width="240" /></a>
+  <a href="assets/media/image60.png"><img src="assets/media/image60.png" alt="NovaTrip prototype screen 56" width="240" /></a>
+  <a href="assets/media/image61.png"><img src="assets/media/image61.png" alt="NovaTrip prototype screen 57" width="240" /></a>
+</p>
 
 Users can turn trip photos into a postcard using the Map trail, Classic or Collage style.
 
@@ -592,9 +636,11 @@ NovaTrip’s main design focus is the connection between these steps: collecting
 
 - **Geospatial & Navigation: Google Maps Platform / Mapbox:** A single mapping provider will be selected based on the required map, routing, place, and ETA capabilities. For the competition prototype, representative transit and accommodation data may be seeded or simulated where live third-party data is not available. Client-side caching and limiting unnecessary API requests will reduce latency and help keep usage within available free quotas.
 
-### 5.2 System Architecture Diagram 
+### 5.2 System Architecture Diagram
 
-<a href="assets/media/image62.png"><img src="assets/media/image62.png" alt="System architecture" width="703" /></a>
+<p align="center">
+  <a href="assets/media/image62.png"><img src="assets/media/image62.png" alt="System architecture" width="703" /></a>
+</p>
 
 ### 5.3 Build Plan, Scope Realism & Resource Awareness
 
@@ -678,8 +724,6 @@ To ensure high engineering feasibility within the competition timeframe, NovaTri
 
 - **Infrastructure Cost Target:** We aim to keep hosting costs within the selected services’ free allowances during the competition. Usage, storage and service limits will be checked during development. Free tiers do not guarantee continuous availability. Any costs for iOS distribution, additional storage or paid API access will be recorded separately.
 
-<!-- -->
-
 - **AI API Cost Control:** Gemini will be used as the primary LLM. Development and testing will minimise unnecessary API calls through reusable test prompts, deterministic test scenarios, and cached representative responses. A maximum budget of **RM25** will be allocated for LLM API usage during development and final validation.
 
 - **Map API Cost Control:** Only one mapping provider will be used. API requests will be limited to essential map, route, ETA, and place-data operations, with client-side caching used to reduce repeated requests and keep usage within the provider's available free quota.
@@ -688,15 +732,11 @@ To ensure high engineering feasibility within the competition timeframe, NovaTri
 
 - **Live Demo Contingency:** Representative AI outputs, itinerary data, and map results will be prepared in advance as fallback data. This ensures that the core user journey can still be demonstrated if external APIs experience temporary failures or unstable venue Wi-Fi.
 
-<!-- -->
-
 - **OTA Aggregation Cost Control**: Accommodation comparison uses the available **free tiers of meta-search APIs (e.g., SerpApi / RapidAPI)** to fetch live rates from multiple platforms. Locally cached rate fixtures are also used for core demo locations to avoid unexpected network delays at the venue. Real-time outbound actions use zero-cost deep linking. This results in **RM0 spent on enterprise affiliate partnerships or paid API subscriptions**.
-
-<!-- -->
 
 - **Estimated Build-Phase Cost:** **RM0–RM25**, assuming Gemini and the selected map provider remain within their available free usage limits. No cloud hosting subscription is required for the competition MVP.
 
-**5.4 Future Enhancements & Scalability Roadmap**
+### 5.4 Future Enhancements & Scalability Roadmap
 
 Following the validation of NovaTrip's core planning-to-execution loop during the MVP phase, the architecture can be extended in the following areas:
 
@@ -712,41 +752,60 @@ Following the validation of NovaTrip's core planning-to-execution loop during th
 
 ### 1
 
-<a href="assets/additional/1.png"><img src="assets/additional/1.png" alt="Additional prototype screen 1" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/1.png"><img src="assets/additional/1.png" alt="Additional prototype screen 1" width="240" /></a>
+</p>
 
 ### ChatGPT Image Sep 12, 2026, 02_42_33 PM
 
-<a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="240" /></a>
+</p>
 
 ### ChatGPT Image Sep 12, 2026, 03_11_23 PM
 
-<a href="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png" alt="Additional prototype screen 3" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png" alt="Additional prototype screen 3" width="240" /></a>
+</p>
 
 ### Frame 11
 
-<a href="assets/additional/frame-11.png"><img src="assets/additional/frame-11.png" alt="Additional prototype screen 4" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-11.png"><img src="assets/additional/frame-11.png" alt="Additional prototype screen 4" width="240" /></a>
+</p>
 
 ### Frame 12
 
-<a href="assets/additional/frame-12.png"><img src="assets/additional/frame-12.png" alt="Additional prototype screen 5" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-12.png"><img src="assets/additional/frame-12.png" alt="Additional prototype screen 5" width="240" /></a>
+</p>
 
 ### Frame 17
 
-<a href="assets/additional/frame-17.png"><img src="assets/additional/frame-17.png" alt="Additional prototype screen 6" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-17.png"><img src="assets/additional/frame-17.png" alt="Additional prototype screen 6" width="240" /></a>
+</p>
 
 ### Frame 29
 
-<a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="240" /></a>
+</p>
 
 ### Frame 57
 
-<a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="240" /></a>
+</p>
 
 ### Frame 6
 
-<a href="assets/additional/frame-6.png"><img src="assets/additional/frame-6.png" alt="Additional prototype screen 9" width="220" /></a>
+<p align="center">
+  <a href="assets/additional/frame-6.png"><img src="assets/additional/frame-6.png" alt="Additional prototype screen 9" width="240" /></a>
+</p>
 
 ### Frame 7
 
-<a href="assets/additional/frame-7.png"><img src="assets/additional/frame-7.png" alt="Additional prototype screen 10" width="220" /></a>
-
+<p align="center">
+  <a href="assets/additional/frame-7.png"><img src="assets/additional/frame-7.png" alt="Additional prototype screen 10" width="240" /></a>
+</p>
