@@ -595,34 +595,17 @@ The preview provides controls to change photos and edit text before downloading 
 ## 4. What Makes It Different ⭐
 
 ### 4.1 Novel Features & The Core Twist 💡
+## 4.1 Novel Features & The Core Twist
 
-**1. Guided Preference Profiling & Must-Do Curation**
-
-- **What is Original / The Twist**: Traditional group planning begins with unstructured, messy messaging where individual preferences get drowned out. NovaTrip replaces endless debate with a guided 4-step profiling flow capturing pacing, travel priorities, food styles, and landmark "must-dos", paired with an optional food Notes field and a personal budget with a No preference option.This structures personal boundaries and niche interests into actionable constraints before a single schedule is drafted.
-
-**2. AI 3-Blueprint Synthesis & Group Voting**
-
-- **What is Original / The Twist**: Group decisions are typically hijacked by the most vocal travelers, leaving passive members disengaged. Instead of single-itinerary compromise, NovaTrip synthesizes group constraints into three distinct personas (*Group Favourite*, *Budget Smart*, and *Easy Pace*). By pairing an objective **"Compare at a glance"** matrix (contrasting cost, pace, and density) with anonymous blind voting, it neutralizes social pressure and delivers true group consensus. **Members can compare the plans before voting. Total votes are visible, but individual voters’ names are hidden. This gives quieter members a clear way to express their choice, although visible totals may still influence later votes.**
-
-**3. Living Vertical Timeline & Live Cockpit**
-
-- **What is Original / The Twist**: Conventional itineraries are static text documents that quickly fall out of sync once travel begins. NovaTrip's timeline functions as an operational live cockpit across Today, Full Trip, and Map viewports. The persistent "NOW" cockpit anchors on-the-move travelers with live transit status, platform and seat numbers, real-time arrival countdowns, and instant navigation links.
-
-**4. Multi-Platform Booking Comparison & Smart Ticket Ingestion Hub**
-
-- **What is Original / The Twist**: Addresses the data disconnect that happens when travelers leave an app to book on external OTAs. Beyond comparing live rates across Agoda, Trip.com, and Booking.com, the **"Mark as booked"** workflow uses smart ticket scanning to process reservation PDFs and screenshots, automatically extracting booking references, departure times, and costs. **Users can review and verify the extracted information before confirming the booking. They can then choose whether to add the booking cost to the shared Budget, while the confirmed booking details are added to the itinerary.**
-
-**5. Dynamic Replanning & Event-Driven Workspace**
-
-- **What is Original / The Twist**: Traditional trip plans collapse as soon as a delay or closure occurs, forcing frantic manual recalculations in separate messaging apps. NovaTrip connects timeline disruption recovery directly to group decision-making: travelers trigger **"Reschedule my itinerary"** from the Trip Assistant, and the AI calculates the resulting changes to the itinerary. **The AI proposes changes to the remaining itinerary and shows a Before/After comparison. After the user confirms the proposal, a poll is created in Trip Chat. The shared itinerary is updated only after the proposed change is approved.**
-
-**6. Stop-Linked Ledger & Smart Net Debt Settlement**
-
-- **What is Original / The Twist**: Decoupled split-bill apps force redundant data entry and result in awkward post-trip debt collection. NovaTrip anchors expenses directly to confirmed itinerary stops and computes real-time net balances across the whole group. Travelers can inspect individual peer balance breakdowns, send gentle "Remind" payment nudges, and execute one-tap "Mark as settled" to record payments made outside the app.
-
-**7. Interactive Footprint Scrapbook & Keepsake Postcards**
-
-- **What is Original / The Twist**: Replaces buried phone photo dumps and chaotic album links with a contextual footprint gallery organized by geographic coordinates and travel days. Beyond chronological and map pin browsing, NovaTrip features a built-in keepsake postcard generator, allowing groups to transform collective photos into stylized keepsakes (Map-trail, Classic, or Collage) ready for instant sharing and export.
+| # | Novel Feature | What is Original | The Twist |
+|--------|--------|--------|--------|
+| **1** | **Guided Preference Profiling & Must-Do Curation** | Traditional group planning begins with unstructured, messy messaging where individual preferences get drowned out. | NovaTrip replaces endless debate with a guided 4-step profiling flow capturing pacing, travel priorities, food styles, and landmark "must-dos", paired with an optional food Notes field and a personal budget with a No preference option. This structures personal boundaries and niche interests into actionable constraints before a single schedule is drafted. |
+| **2** | **AI 3-Blueprint Synthesis & Group Voting** | Group decisions are typically hijacked by the most vocal travelers, leaving passive members disengaged. | Instead of single-itinerary compromise, NovaTrip synthesizes group constraints into three distinct personas (*Group Favourite*, *Budget Smart*, and *Easy Pace*). By pairing an objective **"Compare at a glance"** matrix (contrasting cost, pace, and density) with anonymous blind voting, it neutralizes social pressure and delivers true group consensus. **Members can compare the plans before voting. Total votes are visible, but individual voters’ names are hidden. This gives quieter members a clear way to express their choice, although visible totals may still influence later votes.** |
+| **3** | **Living Vertical Timeline & Live Cockpit** | Conventional itineraries are static text documents that quickly fall out of sync once travel begins. | NovaTrip's timeline functions as an operational live cockpit across Today, Full Trip, and Map viewports. The persistent "NOW" cockpit anchors on-the-move travelers with live transit status, platform and seat numbers, real-time arrival countdowns, and instant navigation links. |
+| **4** | **Multi-Platform Booking Comparison & Smart Ticket Ingestion Hub** | Travelers often experience a data disconnect when they leave an app to book on external OTAs. | NovaTrip goes beyond comparing live rates across Agoda, Trip.com, and Booking.com. The **"Mark as booked"** workflow uses smart ticket scanning to process reservation PDFs and screenshots, automatically extracting booking references, departure times, and costs. **Users can review and verify the extracted information before confirming the booking. They can then choose whether to add the booking cost to the shared Budget, while the confirmed booking details are added to the itinerary.** |
+| **5** | **Dynamic Replanning & Event-Driven Workspace** | Traditional trip plans collapse as soon as a delay or closure occurs, forcing frantic manual recalculations in separate messaging apps. | NovaTrip connects timeline disruption recovery directly to group decision-making. Travelers trigger **"Reschedule my itinerary"** from the Trip Assistant, and the AI calculates the resulting changes to the itinerary. **The AI proposes changes to the remaining itinerary and shows a Before/After comparison. After the user confirms the proposal, a poll is created in Trip Chat. The shared itinerary is updated only after the proposed change is approved.** |
+| **6** | **Stop-Linked Ledger & Smart Net Debt Settlement** | Decoupled split-bill apps force redundant data entry and result in awkward post-trip debt collection. | NovaTrip anchors expenses directly to confirmed itinerary stops and computes real-time net balances across the whole group. Travelers can inspect individual peer balance breakdowns, send gentle "Remind" payment nudges, and execute one-tap "Mark as settled" to record payments made outside the app. |
+| **7** | **Interactive Footprint Scrapbook & Keepsake Postcards** | Phone photo dumps and chaotic album links often bury the shared memories of a trip. | NovaTrip replaces them with a contextual footprint gallery organized by geographic coordinates and travel days. Beyond chronological and map pin browsing, NovaTrip features a built-in keepsake postcard generator, allowing groups to transform collective photos into stylized keepsakes (Map-trail, Classic, or Collage) ready for instant sharing and export. |
 
 ### 4.2 Competitive Differentiation Matrix 📊
 
