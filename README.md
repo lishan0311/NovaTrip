@@ -6,7 +6,7 @@
 
 **Video Presentation:** <u>Unlisted Youtube Link</u>
 
-**Presentation Slides:** [Canva Link](https://www.canva.com/design/DAHU6XS3EJk/EKB2IDizf7j8-QgmCtF-Qg/edit)
+**Presentation Slides:** https://canva.link/f0gl9g2u3t7e754
 
 ## 1. Project Overview
 
