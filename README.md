@@ -124,7 +124,7 @@ This problem tree links scattered information, changing trip times, different pa
 **Board 2: End-to-End Journey Flowchart (As-Is vs. To-Be)**
 
 <p align="left">
-  <a href="assets/media/image2.png">
+  <a href="assets/media/image3.png">
     View / Download full-size diagram
   </a>
 </p>
@@ -140,7 +140,7 @@ These flowcharts compare planning across separate tools with the proposed NovaTr
 **Board 3: MindMap**
 
 <p align="left">
-  <a href="assets/media/image2.png">
+  <a href="assets/media/image3.png">
     View / Download full-size diagram
   </a>
 </p>
@@ -676,7 +676,7 @@ NovaTrip’s main design focus is the connection between these steps: collecting
 ### 5.2 System Architecture Diagram
 
 <p align="left">
-  <a href="assets/media/image2.png">
+  <a href="assets/media/image62.png">
     View / Download full-size diagram
   </a>
 </p>
@@ -796,17 +796,17 @@ Following the validation of NovaTrip's core planning-to-execution loop during th
 ## Additional Prototype Screens
 
 <p align="center">
-  <a href="assets/additional/1.png"><img src="assets/additional/1.png" alt="Additional prototype screen 1" width="240" /></a>
-  <a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="240" /></a>
-  <a href="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png" alt="Additional prototype screen 3" width="240" /></a>
-  <a href="assets/additional/frame-11.png"><img src="assets/additional/frame-11.png" alt="Additional prototype screen 4" width="240" /></a>
-  <a href="assets/additional/frame-12.png"><img src="assets/additional/frame-12.png" alt="Additional prototype screen 5" width="240" /></a>
+  <a href="assets/additional/1.png"><img src="assets/additional/1.png" alt="Additional prototype screen 1" width="18%" /></a>
+  <a href="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-02-42-33-pm.png" alt="Additional prototype screen 2" width="18%" /></a>
+  <a href="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png"><img src="assets/additional/chatgpt-image-sep-12-2026-03-11-23-pm.png" alt="Additional prototype screen 3" width="18%" /></a>
+  <a href="assets/additional/frame-11.png"><img src="assets/additional/frame-11.png" alt="Additional prototype screen 4" width="18%" /></a>
+  <a href="assets/additional/frame-12.png"><img src="assets/additional/frame-12.png" alt="Additional prototype screen 5" width="18%" /></a>
 </p>
 
 <p align="center">
-  <a href="assets/additional/frame-17.png"><img src="assets/additional/frame-17.png" alt="Additional prototype screen 6" width="240" /></a>
-  <a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="240" /></a>
-  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="240" /></a>
-  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="240" /></a>
-  <a href="assets/additional/frame-7.png"><img src="assets/additional/frame-7.png" alt="Additional prototype screen 10" width="240" /></a>
+  <a href="assets/additional/frame-17.png"><img src="assets/additional/frame-17.png" alt="Additional prototype screen 6" width="18%" /></a>
+  <a href="assets/additional/frame-29.png"><img src="assets/additional/frame-29.png" alt="Additional prototype screen 7" width="18%" /></a>
+  <a href="assets/additional/frame-57.png"><img src="assets/additional/frame-57.png" alt="Additional prototype screen 8" width="18%" /></a>
+  <a href="assets/additional/frame-6.png"><img src="assets/additional/frame-6.png" alt="Additional prototype screen 9" width="18%" /></a>
+  <a href="assets/additional/frame-7.png"><img src="assets/additional/frame-7.png" alt="Additional prototype screen 10" width="18%" /></a>
 </p>
