@@ -226,7 +226,7 @@ This mind map connects our ideas for trip creation, group decisions, travel upda
 
 **UI Prototype Demo:** [Prototype Demo](https://www.figma.com/proto/vcj7s48Y4CAV4pw1FBNIxP/Travel-Planner?node-id=25-6&p=f&t=sRMKQhagVMigy6gw-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A6)
 
-**Prototype Design View:** [[Design View](https://www.figma.com/design/vcj7s48Y4CAV4pw1FBNIxP/Travel-Planner?node-id=0-1&p=f&t=rrtrtECUUd87Gykt-0)]
+**Prototype Design View:** [Design View](https://www.figma.com/design/vcj7s48Y4CAV4pw1FBNIxP/Travel-Planner?node-id=0-1&p=f&t=rrtrtECUUd87Gykt-0)
 
 ### 3.1 Key Screen Demonstrations & Interactions
 
