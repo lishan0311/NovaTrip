@@ -107,24 +107,48 @@ Later mentor feedback led to further changes, including itinerary-change polls, 
 
 **Board 1: Problem Tree & Root Cause Analysis**
 
+<p align="left">
+  <a href="assets/media/image2.png">
+    View / Download full-size diagram
+  </a>
+</p>
+
 <p align="center">
-  <a href="assets/media/image2.png"><img src="assets/media/image2.png" alt="Ideation board" width="780" /></a>
+  <a href="assets/media/image2.png">
+    <img src="assets/media/image2.png" width="780" alt="Problem Tree" />
+  </a>
 </p>
 
 This problem tree links scattered information, changing trip times, different payments and travel preferences to the difficulties travellers face. It helped our team focus NovaTrip on keeping trip details together, adjusting itineraries, tracking costs and supporting group decisions.
 
 **Board 2: End-to-End Journey Flowchart (As-Is vs. To-Be)**
 
+<p align="left">
+  <a href="assets/media/image2.png">
+    View / Download full-size diagram
+  </a>
+</p>
+
 <p align="center">
-  <a href="assets/media/image3.png"><img src="assets/media/image3.png" alt="Ideation board" width="435" /></a>
+  <a href="assets/media/image3.png">
+    <img src="assets/media/image3.png" alt="Ideation board" width="435" />
+  </a>
 </p>
 
 These flowcharts compare planning across separate tools with the proposed NovaTrip journey for solo and group travellers. They show how our team designed AI planning, booking imports, group voting and cost calculations to reduce manual work while keeping users in control of their choices.
 
 **Board 3: MindMap**
 
+<p align="left">
+  <a href="assets/media/image2.png">
+    View / Download full-size diagram
+  </a>
+</p>
+
 <p align="center">
-  <a href="assets/media/image4.png"><img src="assets/media/image4.png" alt="Ideation board" width="780" /></a>
+  <a href="assets/media/image4.png">
+    <img src="assets/media/image4.png" alt="Ideation board" width="780" />
+  </a>
 </p>
 
 This mind map connects our ideas for trip creation, group decisions, travel updates and mobile use. It also records key choices, including moving from one AI plan to three options and choosing a mobile app over a website for the first version.
@@ -651,8 +675,16 @@ NovaTrip’s main design focus is the connection between these steps: collecting
 
 ### 5.2 System Architecture Diagram
 
+<p align="left">
+  <a href="assets/media/image2.png">
+    View / Download full-size diagram
+  </a>
+</p>
+
 <p align="center">
-  <a href="assets/media/image62.png"><img src="assets/media/image62.png" alt="System architecture" width="703" /></a>
+  <a href="assets/media/image62.png">
+    <img src="assets/media/image62.png" alt="System architecture" width="703" />
+  </a>
 </p>
 
 ### 5.3 Build Plan, Scope Realism & Resource Awareness
